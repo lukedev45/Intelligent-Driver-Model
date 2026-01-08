@@ -21,7 +21,7 @@ to compute a smooth acceleration/deceleration profile. IDM can produce realistic
 
 IDM is mathematically defined by:
 
-dv/dt = a · [ 1 − (v / v₀)^δ − (s*(v, Δv) / s)² ]
+$\frac{dv}{dt} = a \left[ 1 - \left(\frac{v}{v_0}\right)^{\delta} - \left(\frac{s^*(v, \Delta v)}{s}\right)^2 \right]$
 
 where:
 - `v` is current speed
